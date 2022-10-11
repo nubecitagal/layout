@@ -1,0 +1,89 @@
+body {
+    font-family: helvetica, arial,sans-serif;
+}
+
+
+h1 {
+    color: rgb(15, 84, 181);
+    text-align: center;
+    
+}
+#tablero-izquierdo{
+    width: 10%;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+    left: 0px;
+    background-color: rgb(177, 221, 238);
+}
+#tablero-derecho {
+    width: 25%;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+    right: 0px;
+    
+  }
+
+  .contenedor {
+    position: relative;
+    height: 6%;
+   }
+  
+  .contenedor2 {
+    position: relative;
+    height: 15%;
+    left: -10px;
+  }
+  
+  .reducido {
+    height: 6%;
+  }
+  
+  .componente {
+    position: absolute;
+    max-width: 100%;
+    max-height: 150%;
+    z-index: 3;
+  }
+  
+  .producto {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 1;
+  }
+
+  .layout {
+    height: 80%;
+    width: 45%;
+    border: 1px solid #0f54b5;
+    border-radius: 0rem;
+    position: absolute;
+    opacity: 1;
+    z-index: 1;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+  }
+  
+  .rotulo {
+    width: 45%;
+    height: 5%;
+    background: #b1ddee;
+    position: absolute;
+    opacity: 5;
+    z-index: 1;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    border-radius: 1em 1rem 0px 0dpx;
+    text-align: center;
+    color: #0f54b5;
+  }
+  
+  .titulo {
+    position: relative;
+    display: inline;
+    top: 1 rem;
+  }
